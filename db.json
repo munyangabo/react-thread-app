@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user_uuid": "2635c4d3-0769-49f0-b3d4-2435bbb04dec",
+      "username": "Ngabo junior",
+      "handle": "junior23",
+      "bio": "Full-Stack Web Developer | Software Engineer | Data Science |Passionate about Building Innovative Solutions",
+      "link": "https://www.linkedin.com/",
+      "img": "https://i.imgur.com/cUa7y4i.jpg",
+      "instagram_url": "https://www.instagram.com/",
+      "followers": [
+        {
+          "user_uuid": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c"
+        },
+        {
+          "user_uuid": "752c3a6c-b692-4e36-b3ca-8244b3f44af2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_uuid": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c",
+      "username": "bobby's burger",
+      "handle": "burger",
+      "bio": "Full-Stack Web Developer",
+      "link": "https://www.instagram.com/",
+      "img": "https://i.imgur.com/C0cbkqO.jpg",
+      "instagram_url": "https://www.instagram.com/",
+      "followers": [
+        {
+          "user_uuid": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c"
+        },
+        {
+          "user_uuid": "752c3a6c-b692-4e36-b3ca-8244b3f44af2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_uuid": "752c3a6c-b692-4e36-b3ca-8244b3f44af2",
+      "username": "uriho juluis",
+      "handle": "burgerguy",
+      "bio": "just a person",
+      "link": "https://www.instagram.com/",
+      "img": "https://i.imgur.com/o9GS1Ip.jpg",
+      "instagram_url": "https://www.instagram.com/",
+      "followers": [
+        {
+          "user_uuid": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c"
+        },
+        {
+          "user_uuid": "752c3a6c-b692-4e36-b3ca-8244b3f44af2"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": 0,
+      "timestamp": "Tue Aug 01 2023 13:56:56 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "Hello Kigali one of the beautiful city",
+      "likes": [
+        {
+          "user_uuid": "752c3a6c-b692-4e36-b3ca-8244b3f44af2"
+        },
+        {
+          "user_uuid": "2635c4d3-0769-49f0-b3d4-2435bbb04dec"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "timestamp": "Tue Aug 01 2023 16:56:56 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "awesome",
+      "likes": [
+        {
+          "user_uuid": "2635c4d3-0769-49f0-b3d4-2435bbb04dec"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "timestamp": "Tue Aug 01 2023 18:56:56 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "another one!",
+      "likes": []
+    },
+    {
+      "id": 3,
+      "timestamp": "Tue Aug 01 2023 19:56:56 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "60dcab50-5659-45e6-99e5-ac68c2d0fa5c",
+      "thread_to": null,
+      "reply_to": null,
+      "text": "exicted ",
+      "likes": []
+    },
+    {
+      "id": 4,
+      "timestamp": "Tue Aug 01 2023 20:56:56 GMT+0200 (South Africa Standard Time)",
+      "thread_from": "2635c4d3-0769-49f0-b3d4-2435bbb04dec",
+      "thread_to": null,
+      "reply_to": 3,
+      "text": "congrats! ",
+      "likes": [
+        {
+          "user_uuid": "2635c4d3-0769-49f0-b3d4-2435bbb04dec"
+        }
+      ]
+    }
+  ]
+}
