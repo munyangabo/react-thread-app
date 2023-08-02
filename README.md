@@ -75,4 +75,4 @@ yarn json-server --watch db.json
 
 #dependencies
 `yarn add json-server`
-# 
+`yarn add moment` from displaying time
